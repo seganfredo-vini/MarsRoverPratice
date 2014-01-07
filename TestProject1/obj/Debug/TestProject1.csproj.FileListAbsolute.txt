@@ -1,0 +1,11 @@
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\MarsRover.exe
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\MarsRover.pdb
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\obj\Debug\TestProject1.pdb
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\MarsRover_Accessor.exe
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\MarsRover_Accessor.pdb
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\nunit.framework.dll
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\bin\Debug\nunit.framework.xml

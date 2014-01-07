@@ -1,0 +1,5 @@
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\bin\Debug\MarsRover.exe
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\bin\Debug\MarsRover.pdb
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\obj\x86\Debug\MarsRover.exe
+C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\obj\x86\Debug\MarsRover.pdb

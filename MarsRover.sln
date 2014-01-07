@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover", "MarsRover\MarsRover.csproj", "{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{5A0220C2-07C5-4313-9656-BC2051603E3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E54C5D9D-7B17-43D9-B4F4-ACAA70638747}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MarsRover.vsmdi = MarsRover.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MarsRover.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Debug|x86.ActiveCfg = Debug|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Debug|x86.Build.0 = Debug|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Release|Any CPU.ActiveCfg = Release|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Release|x86.ActiveCfg = Release|x86
+		{0536B1E6-2207-483B-A6F0-B9D6F1D16ACF}.Release|x86.Build.0 = Release|x86
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5A0220C2-07C5-4313-9656-BC2051603E3C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

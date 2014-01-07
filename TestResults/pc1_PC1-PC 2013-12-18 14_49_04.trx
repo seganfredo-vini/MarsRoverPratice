@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="40c88e64-e473-4025-b953-7e3d74006ef8" name="pc1@PC1-PC 2013-12-18 14:49:04" runUser="pc1-PC\pc1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="559130f0-735b-433e-802d-ff43b49d5e85">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pc1_PC1-PC 2013-12-18 14_49_04">
+      <DeploymentItem filename="C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\packages\NUnit.2.6.3\lib\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\bin\Debug\MarsRover.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-18T14:49:04.7286000-02:00" queuing="2013-12-18T14:49:04.7676000-02:00" start="2013-12-18T14:49:04.7926000-02:00" finish="2013-12-18T14:49:05.1326000-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestTurnRight90DegreesMethod" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="8df1ef3b-bc4b-e2e6-17c2-0df6e11cb7e0">
+      <Execution id="55e21c94-d885-48fe-8087-230507de7e6d" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTurnRight90DegreesMethod" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8df1ef3b-bc4b-e2e6-17c2-0df6e11cb7e0" executionId="55e21c94-d885-48fe-8087-230507de7e6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="55e21c94-d885-48fe-8087-230507de7e6d" testId="8df1ef3b-bc4b-e2e6-17c2-0df6e11cb7e0" testName="TestTurnRight90DegreesMethod" computerName="PC1-PC" duration="00:00:00.0713208" startTime="2013-12-18T14:49:04.7926000-02:00" endTime="2013-12-18T14:49:05.0646000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55e21c94-d885-48fe-8087-230507de7e6d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.RoverTest.TestTurnRight90DegreesMethod threw exception: 
+NUnit.Framework.AssertionException:   String lengths are both 1. Strings differ at index 0.
+  Expected: "E"
+  But was:  "W"
+  -----------^
+</Message>
+          <StackTrace>    at NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression)
+   at TestProject1.RoverTest.TestTurnRight90DegreesMethod() in C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\TestProject1\RoverTest.cs:line 157
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="41e40ce5-9485-4860-ad8b-bb54a0a56646" name="pc1@PC1-PC 2013-12-17 17:19:11" runUser="pc1-PC\pc1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="559130f0-735b-433e-802d-ff43b49d5e85">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pc1_PC1-PC 2013-12-17 17_19_11">
+      <DeploymentItem filename="C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\bin\Debug\MarsRover.exe" />
+      <DeploymentItem filename="C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\packages\NUnit.2.6.3\lib\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-17T17:19:11.6362000-02:00" queuing="2013-12-17T17:19:11.6622000-02:00" start="2013-12-17T17:19:11.7742000-02:00" finish="2013-12-17T17:19:12.4152000-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="12" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RoverReadCommandsTestWithMove" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="2c84eb79-8166-f044-0666-7470039a5215">
+      <Execution id="736dca41-65d7-40a0-9c5d-8c841789a2d2" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RoverReadCommandsTestWithMove" />
+    </UnitTest>
+    <UnitTest name="TestIfThrowExceptionWhenInstructionIsInvalid" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="51884714-5325-2db9-eecd-4bef8b94f800">
+      <Execution id="e2a8dcbc-f623-45a5-8d65-adbe51bc36ba" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenInstructionIsInvalid" />
+    </UnitTest>
+    <UnitTest name="TestIfThrowExceptionWhenXRoverPlateauPositionIsNegative" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="ead7bc61-c4e3-04b3-73af-e0a36677838f">
+      <Execution id="180e6ad1-f7c3-4e52-bedf-cfa7a70987b4" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenXRoverPlateauPositionIsNegative" />
+    </UnitTest>
+    <UnitTest name="RoverReadCommandsTest" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="17f1de40-59ca-03b9-53b0-470d9fd93097">
+      <Execution id="9806d628-9dba-4b4a-8d2c-58b3c53ba148" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RoverReadCommandsTest" />
+    </UnitTest>
+    <UnitTest name="TestIfThrowExceptionWhenRoverXPlateauPositionGoesOutOfPlateauLimits" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="83136b0f-9323-5b09-22f0-cf7b298bd3da">
+      <Execution id="ef6fd04b-9524-4e84-8135-b50563fd80de" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenRoverXPlateauPositionGoesOutOfPlateauLimits" />
+    </UnitTest>
+    <UnitTest name="TestIfThrowExceptionWhenYRoverPlateauPositionIsNegative" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="08c6ba7f-c8b8-b001-4c36-8e26c85f8f63">
+      <Execution id="3773b141-1257-4b57-afff-092f89690d10" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenYRoverPlateauPositionIsNegative" />
+    </UnitTest>
+    <UnitTest name="TestMoveMethod" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="6ea581c9-bd42-4719-5380-8e567eb988ae">
+      <Execution id="38110e01-ae9e-45b4-93c1-113096bec8e7" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMoveMethod" />
+    </UnitTest>
+    <UnitTest name="TestToString" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="c41533c6-b165-e956-d28f-ff90c9b2a209">
+      <Execution id="386352cd-1af7-41d6-9534-53330abdfbdf" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestToString" />
+    </UnitTest>
+    <UnitTest name="RoverConstructorTest" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="8a40d787-33ef-c322-fd5c-abcbe66d932a">
+      <Execution id="16502f0d-35c7-441b-9809-e5d3278c5a80" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RoverConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TestTurnLeft90DegreesMethod" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="040bdfea-edca-76cd-455e-27de3aeb8763">
+      <Execution id="86977a5f-f7d7-43ed-a496-de4eb8b0bd05" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTurnLeft90DegreesMethod" />
+    </UnitTest>
+    <UnitTest name="TestIfThrowExceptionWhenRoverYPlateauPositionGoesOutOfPlateauLimits" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="5fb0447b-bd9f-d536-5b82-7636beb6c7ac">
+      <Execution id="6a647896-d759-4145-a8e3-34ec678c9bf5" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenRoverYPlateauPositionGoesOutOfPlateauLimits" />
+    </UnitTest>
+    <UnitTest name="RoverReadCommandsTestWithAnotherRover" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="fde5d9dd-a450-d72c-94f2-7dbf1955b5ff">
+      <Execution id="ab79bfe0-cf92-40fc-afea-19ddfc48e72a" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RoverReadCommandsTestWithAnotherRover" />
+    </UnitTest>
+    <UnitTest name="TestTurnRight90DegreesMethod" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="8df1ef3b-bc4b-e2e6-17c2-0df6e11cb7e0">
+      <Execution id="fc920d22-ff79-44a1-9869-5690d80ff5c4" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTurnRight90DegreesMethod" />
+    </UnitTest>
+    <UnitTest name="TestMoveMethodException" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="40e8de6a-73a6-6b74-3779-40598a2cb57f">
+      <Execution id="13ee216b-40da-4267-b773-8a5d56ea8451" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RoverTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMoveMethodException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="040bdfea-edca-76cd-455e-27de3aeb8763" executionId="86977a5f-f7d7-43ed-a496-de4eb8b0bd05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08c6ba7f-c8b8-b001-4c36-8e26c85f8f63" executionId="3773b141-1257-4b57-afff-092f89690d10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17f1de40-59ca-03b9-53b0-470d9fd93097" executionId="9806d628-9dba-4b4a-8d2c-58b3c53ba148" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c84eb79-8166-f044-0666-7470039a5215" executionId="736dca41-65d7-40a0-9c5d-8c841789a2d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40e8de6a-73a6-6b74-3779-40598a2cb57f" executionId="13ee216b-40da-4267-b773-8a5d56ea8451" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51884714-5325-2db9-eecd-4bef8b94f800" executionId="e2a8dcbc-f623-45a5-8d65-adbe51bc36ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fb0447b-bd9f-d536-5b82-7636beb6c7ac" executionId="6a647896-d759-4145-a8e3-34ec678c9bf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ea581c9-bd42-4719-5380-8e567eb988ae" executionId="38110e01-ae9e-45b4-93c1-113096bec8e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83136b0f-9323-5b09-22f0-cf7b298bd3da" executionId="ef6fd04b-9524-4e84-8135-b50563fd80de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a40d787-33ef-c322-fd5c-abcbe66d932a" executionId="16502f0d-35c7-441b-9809-e5d3278c5a80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8df1ef3b-bc4b-e2e6-17c2-0df6e11cb7e0" executionId="fc920d22-ff79-44a1-9869-5690d80ff5c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c41533c6-b165-e956-d28f-ff90c9b2a209" executionId="386352cd-1af7-41d6-9534-53330abdfbdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ead7bc61-c4e3-04b3-73af-e0a36677838f" executionId="180e6ad1-f7c3-4e52-bedf-cfa7a70987b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fde5d9dd-a450-d72c-94f2-7dbf1955b5ff" executionId="ab79bfe0-cf92-40fc-afea-19ddfc48e72a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="86977a5f-f7d7-43ed-a496-de4eb8b0bd05" testId="040bdfea-edca-76cd-455e-27de3aeb8763" testName="TestTurnLeft90DegreesMethod" computerName="PC1-PC" duration="00:00:00.0217590" startTime="2013-12-17T17:19:11.7912000-02:00" endTime="2013-12-17T17:19:12.0242000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86977a5f-f7d7-43ed-a496-de4eb8b0bd05">
+    </UnitTestResult>
+    <UnitTestResult executionId="3773b141-1257-4b57-afff-092f89690d10" testId="08c6ba7f-c8b8-b001-4c36-8e26c85f8f63" testName="TestIfThrowExceptionWhenYRoverPlateauPositionIsNegative" computerName="PC1-PC" duration="00:00:00.0027268" startTime="2013-12-17T17:19:12.0332000-02:00" endTime="2013-12-17T17:19:12.0462000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3773b141-1257-4b57-afff-092f89690d10">
+    </UnitTestResult>
+    <UnitTestResult executionId="9806d628-9dba-4b4a-8d2c-58b3c53ba148" testId="17f1de40-59ca-03b9-53b0-470d9fd93097" testName="RoverReadCommandsTest" computerName="PC1-PC" duration="00:00:00.0005010" startTime="2013-12-17T17:19:12.0522000-02:00" endTime="2013-12-17T17:19:12.0582000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9806d628-9dba-4b4a-8d2c-58b3c53ba148">
+    </UnitTestResult>
+    <UnitTestResult executionId="736dca41-65d7-40a0-9c5d-8c841789a2d2" testId="2c84eb79-8166-f044-0666-7470039a5215" testName="RoverReadCommandsTestWithMove" computerName="PC1-PC" duration="00:00:00.0015892" startTime="2013-12-17T17:19:12.0642000-02:00" endTime="2013-12-17T17:19:12.0712000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="736dca41-65d7-40a0-9c5d-8c841789a2d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="13ee216b-40da-4267-b773-8a5d56ea8451" testId="40e8de6a-73a6-6b74-3779-40598a2cb57f" testName="TestMoveMethodException" computerName="PC1-PC" duration="00:00:00.0030449" startTime="2013-12-17T17:19:12.0772000-02:00" endTime="2013-12-17T17:19:12.0952000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13ee216b-40da-4267-b773-8a5d56ea8451">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2a8dcbc-f623-45a5-8d65-adbe51bc36ba" testId="51884714-5325-2db9-eecd-4bef8b94f800" testName="TestIfThrowExceptionWhenInstructionIsInvalid" computerName="PC1-PC" duration="00:00:00.0006085" startTime="2013-12-17T17:19:12.1062000-02:00" endTime="2013-12-17T17:19:12.1122000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2a8dcbc-f623-45a5-8d65-adbe51bc36ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a647896-d759-4145-a8e3-34ec678c9bf5" testId="5fb0447b-bd9f-d536-5b82-7636beb6c7ac" testName="TestIfThrowExceptionWhenRoverYPlateauPositionGoesOutOfPlateauLimits" computerName="PC1-PC" duration="00:00:00.0166486" startTime="2013-12-17T17:19:12.1202000-02:00" endTime="2013-12-17T17:19:12.1422000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a647896-d759-4145-a8e3-34ec678c9bf5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.RoverTest.TestIfThrowExceptionWhenRoverYPlateauPositionGoesOutOfPlateauLimits did not throw expected exception MarsRover.OutOfBoundsException. Valores negativos não permitidos</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="38110e01-ae9e-45b4-93c1-113096bec8e7" testId="6ea581c9-bd42-4719-5380-8e567eb988ae" testName="TestMoveMethod" computerName="PC1-PC" duration="00:00:00.0030014" startTime="2013-12-17T17:19:12.1512000-02:00" endTime="2013-12-17T17:19:12.1602000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38110e01-ae9e-45b4-93c1-113096bec8e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef6fd04b-9524-4e84-8135-b50563fd80de" testId="83136b0f-9323-5b09-22f0-cf7b298bd3da" testName="TestIfThrowExceptionWhenRoverXPlateauPositionGoesOutOfPlateauLimits" computerName="PC1-PC" duration="00:00:00.0010360" startTime="2013-12-17T17:19:12.1692000-02:00" endTime="2013-12-17T17:19:12.1752000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef6fd04b-9524-4e84-8135-b50563fd80de">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.RoverTest.TestIfThrowExceptionWhenRoverXPlateauPositionGoesOutOfPlateauLimits did not throw expected exception MarsRover.OutOfBoundsException. Valores negativos não permitidos</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="16502f0d-35c7-441b-9809-e5d3278c5a80" testId="8a40d787-33ef-c322-fd5c-abcbe66d932a" testName="RoverConstructorTest" computerName="PC1-PC" duration="00:00:00.0030464" startTime="2013-12-17T17:19:12.1832000-02:00" endTime="2013-12-17T17:19:12.1922000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16502f0d-35c7-441b-9809-e5d3278c5a80">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc920d22-ff79-44a1-9869-5690d80ff5c4" testId="8df1ef3b-bc4b-e2e6-17c2-0df6e11cb7e0" testName="TestTurnRight90DegreesMethod" computerName="PC1-PC" duration="00:00:00.0005186" startTime="2013-12-17T17:19:12.1982000-02:00" endTime="2013-12-17T17:19:12.2082000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc920d22-ff79-44a1-9869-5690d80ff5c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="386352cd-1af7-41d6-9534-53330abdfbdf" testId="c41533c6-b165-e956-d28f-ff90c9b2a209" testName="TestToString" computerName="PC1-PC" duration="00:00:00.0025599" startTime="2013-12-17T17:19:12.2182000-02:00" endTime="2013-12-17T17:19:12.2272000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="386352cd-1af7-41d6-9534-53330abdfbdf">
+    </UnitTestResult>
+    <UnitTestResult executionId="180e6ad1-f7c3-4e52-bedf-cfa7a70987b4" testId="ead7bc61-c4e3-04b3-73af-e0a36677838f" testName="TestIfThrowExceptionWhenXRoverPlateauPositionIsNegative" computerName="PC1-PC" duration="00:00:00.0007009" startTime="2013-12-17T17:19:12.2352000-02:00" endTime="2013-12-17T17:19:12.2462000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="180e6ad1-f7c3-4e52-bedf-cfa7a70987b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab79bfe0-cf92-40fc-afea-19ddfc48e72a" testId="fde5d9dd-a450-d72c-94f2-7dbf1955b5ff" testName="RoverReadCommandsTestWithAnotherRover" computerName="PC1-PC" duration="00:00:00.0005353" startTime="2013-12-17T17:19:12.2572000-02:00" endTime="2013-12-17T17:19:12.2642000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab79bfe0-cf92-40fc-afea-19ddfc48e72a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

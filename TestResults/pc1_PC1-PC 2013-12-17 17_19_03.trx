@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f2d20c39-78b7-4791-871c-6189285018b3" name="pc1@PC1-PC 2013-12-17 17:19:03" runUser="pc1-PC\pc1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="559130f0-735b-433e-802d-ff43b49d5e85">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pc1_PC1-PC 2013-12-17 17_19_03">
+      <DeploymentItem filename="C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\MarsRover\bin\Debug\MarsRover.exe" />
+      <DeploymentItem filename="C:\Users\pc1\Dropbox\PequenosProjetos\MarsRover\packages\NUnit.2.6.3\lib\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-17T17:19:03.6282000-02:00" queuing="2013-12-17T17:19:03.6502000-02:00" start="2013-12-17T17:19:03.7212000-02:00" finish="2013-12-17T17:19:04.0542000-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestIfThrowExceptionWhenXValueIsNegative" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="07f961a9-2755-6727-f12b-bbcc477d20cf">
+      <Execution id="dca07a23-bdf8-4d3c-acb3-1b80dce75358" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PlateauTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenXValueIsNegative" />
+    </UnitTest>
+    <UnitTest name="TestIFCreateANewPlateauCorrectly" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="9e22ac22-cd66-7233-db20-700abce678a5">
+      <Execution id="272bebc2-c3bf-4cfb-8654-7ff2c8311eb3" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PlateauTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIFCreateANewPlateauCorrectly" />
+    </UnitTest>
+    <UnitTest name="TestIfThrowExceptionWhenXValueIsZero" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="c938a87a-a406-ebf4-d0b6-0c1f494f6148">
+      <Execution id="84fb0b3e-1365-476a-8ceb-adb646852276" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PlateauTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenXValueIsZero" />
+    </UnitTest>
+    <UnitTest name="TestIfTrhowExceptionWhenYValueIsZero" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="12819f0d-a437-9ad4-56bb-adc110c11ded">
+      <Execution id="92e6e4e0-900b-4abe-af51-501244eab72f" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PlateauTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfTrhowExceptionWhenYValueIsZero" />
+    </UnitTest>
+    <UnitTest name="TestIfThrowExceptionWhenYValueIsNegative" storage="c:\users\pc1\dropbox\pequenosprojetos\marsrover\testproject1\bin\debug\testproject1.dll" id="75194b31-6116-2d7b-3449-f4794a97dfc9">
+      <Execution id="5a09db44-7378-4bf7-9256-c29eaec83713" />
+      <TestMethod codeBase="C:/Users/pc1/Dropbox/PequenosProjetos/MarsRover/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PlateauTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfThrowExceptionWhenYValueIsNegative" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="07f961a9-2755-6727-f12b-bbcc477d20cf" executionId="dca07a23-bdf8-4d3c-acb3-1b80dce75358" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12819f0d-a437-9ad4-56bb-adc110c11ded" executionId="92e6e4e0-900b-4abe-af51-501244eab72f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75194b31-6116-2d7b-3449-f4794a97dfc9" executionId="5a09db44-7378-4bf7-9256-c29eaec83713" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e22ac22-cd66-7233-db20-700abce678a5" executionId="272bebc2-c3bf-4cfb-8654-7ff2c8311eb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c938a87a-a406-ebf4-d0b6-0c1f494f6148" executionId="84fb0b3e-1365-476a-8ceb-adb646852276" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dca07a23-bdf8-4d3c-acb3-1b80dce75358" testId="07f961a9-2755-6727-f12b-bbcc477d20cf" testName="TestIfThrowExceptionWhenXValueIsNegative" computerName="PC1-PC" duration="00:00:00.0145492" startTime="2013-12-17T17:19:03.7322000-02:00" endTime="2013-12-17T17:19:03.9502000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dca07a23-bdf8-4d3c-acb3-1b80dce75358">
+    </UnitTestResult>
+    <UnitTestResult executionId="92e6e4e0-900b-4abe-af51-501244eab72f" testId="12819f0d-a437-9ad4-56bb-adc110c11ded" testName="TestIfTrhowExceptionWhenYValueIsZero" computerName="PC1-PC" duration="00:00:00.0007256" startTime="2013-12-17T17:19:03.9602000-02:00" endTime="2013-12-17T17:19:03.9722000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92e6e4e0-900b-4abe-af51-501244eab72f">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a09db44-7378-4bf7-9256-c29eaec83713" testId="75194b31-6116-2d7b-3449-f4794a97dfc9" testName="TestIfThrowExceptionWhenYValueIsNegative" computerName="PC1-PC" duration="00:00:00.0007564" startTime="2013-12-17T17:19:03.9842000-02:00" endTime="2013-12-17T17:19:03.9972000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a09db44-7378-4bf7-9256-c29eaec83713">
+    </UnitTestResult>
+    <UnitTestResult executionId="272bebc2-c3bf-4cfb-8654-7ff2c8311eb3" testId="9e22ac22-cd66-7233-db20-700abce678a5" testName="TestIFCreateANewPlateauCorrectly" computerName="PC1-PC" duration="00:00:00.0003175" startTime="2013-12-17T17:19:04.0062000-02:00" endTime="2013-12-17T17:19:04.0132000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="272bebc2-c3bf-4cfb-8654-7ff2c8311eb3">
+    </UnitTestResult>
+    <UnitTestResult executionId="84fb0b3e-1365-476a-8ceb-adb646852276" testId="c938a87a-a406-ebf4-d0b6-0c1f494f6148" testName="TestIfThrowExceptionWhenXValueIsZero" computerName="PC1-PC" duration="00:00:00.0004906" startTime="2013-12-17T17:19:04.0192000-02:00" endTime="2013-12-17T17:19:04.0262000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84fb0b3e-1365-476a-8ceb-adb646852276">
+    </UnitTestResult>
+  </Results>
+</TestRun>
